@@ -39,4 +39,8 @@ CKEDITOR.editorConfig = function( config ) {
 	// h2 for task title
 	// But better allow them also for task description and comment for backward compatibility.
 	config.format_tags = 'p;h1;h2;h3;h4;h5;pre';
+
+	// w8tcha CKEditor autosave plugin
+	// https://github.com/w8tcha/CKEditor-AutoSave-Plugin
+	config.extraPlugins = 'autosave'
 };

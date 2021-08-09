@@ -1,0 +1,3 @@
+[submodule "js/ckeditor/plugins/autosave"]
+	path = js/ckeditor/plugins/autosave
+	url = https://github.com/w8tcha/CKEditor-AutoSave-Plugin
